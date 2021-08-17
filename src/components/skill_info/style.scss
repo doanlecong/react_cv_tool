@@ -1,0 +1,25 @@
+.skill-item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    .skill-name {
+        padding: 0 20px 0 0;
+        font-weight: bold;
+    }
+    .point-div {
+        text-align: right;
+        display: flex;
+        .skill-point {
+            margin: 0 5px;
+            min-width: 20px;
+            min-height: 20px;
+            border: 1px solid rgb(148, 145, 137);
+            border-radius: 50%;
+        }
+    }
+    .check {
+        background: rgb(173, 129, 6);
+        border: unset;
+        border: 1px solid rgb(173, 129, 6) ;
+    }
+}
