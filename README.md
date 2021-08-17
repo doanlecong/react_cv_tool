@@ -1,6 +1,15 @@
-# Getting Started with Create React App
+# React Simple Curriculum Vitae
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+I created this project to help me in writing an CV to apply for new job. It's just simple tool. But may be , in the near future, I'll develop it to become a powerful tool . 
+
+Feature I would like to implement :
+- Export To PDF directly
+- Drag drop element to customize the layout as you wish
+- Theme ( Background Color + Options on specific element )
+- Share to some social networks ( Facebook, Twitter, ....)
+- Etc.
 
 ## Available Scripts
 
