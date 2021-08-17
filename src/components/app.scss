@@ -1,3 +1,5 @@
+$myOrange : rgb(173, 129, 6);
+
 #app_div {
     padding: 20px;
     width: 1000px !important;
@@ -124,6 +126,52 @@
 
     #history_project {
         width: 58%;
+        
+        .working-target-desire {
+            padding: 10px 0 5px 0;
+            text-align: justify;
+            .quote {
+                text-transform: uppercase;
+                font-size: larger;
+                font-weight: bold;
+                color: $myOrange;
+            }
+            .description {
+                p {
+                    margin: 10px 0 5px 0;
+                }
+            }
+        }
 
+
+        .follow-me-div {
+            width: 100%;
+            .follow-item {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid ;
+                padding-top: 8px;
+                padding-bottom: 5px;
+                color: black;
+                text-decoration: none;
+                .icon {
+                    font-size: 1.2rem;
+                    img {
+                        width: 20px;
+                    }
+                }
+                .link {
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        transition: color 200ms;
+                        &:hover {
+                            color: $myOrange;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

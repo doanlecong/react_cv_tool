@@ -1,6 +1,7 @@
 import React, {useMemo} from "react";
 import "./app.scss";
 import MyImage from "../images/myself.jpg" 
+import FacebookIcon from "../images/facebook.svg"
 import Skill from "./skill_info";
 
 const SkillInfo = [
@@ -123,9 +124,41 @@ const  App = () => {
       <div id="history_project">
         {/* Timelime project và các thành tưu */}
         <Seperate title="Working Experience" direction="right"/>
+
         <Seperate title="Education Certificates AND Awards" direction="right"/>
+
         <Seperate title="Working Targets And Desire" direction="right"/>
+        <div className="working-target-desire">
+          <div className="quote">
+            I want to become a professional DEVELOPER
+          </div>
+          <div className="description">
+            <p>
+              When I was a student, I had loved learning programming. The first programming language I have studied was Pascal since I was a 15 years old boy. And Java is the third one. 
+              Since took part in studying in university, I think Java is very beautiful but also a difficult language to learn. But I feel that Java is what I am always excited to work with. 
+              By now, I am focus on Web Development and programming languages are just the tools for us to describe and implement what we want. 
+            </p>
+          </div>
+        </div>
         <Seperate title="Follow Me" direction="right"/>
+        <div className="follow-me-div">
+          <div className="follow-item">
+            <div className="icon">
+              <img alt="facebook-icom" src={FacebookIcon} style={{maxWidth:"30px"}}/>
+            </div>
+            <div className="link">
+              <a href="https://www.facebook.com/doan.le.cong.33" target="_blank">
+                https://www.facebook.com/doan.le.cong.33
+              </a>
+            </div>
+          </div>
+          <div className="follow-item">
+            <div className="icon">🌏</div>
+            <div className="link">
+              <a href="https://www.doanlee.com" target="_blank">https://www.doanlee.com</a>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="clear-float"></div>
     </div>
