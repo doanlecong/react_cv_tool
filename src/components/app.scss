@@ -1,246 +1,35 @@
 $myOrange: rgb(173, 129, 6);
 
-#app_div {
-  padding: 20px;
-  width: 1000px !important;
-  min-height: 1250px !important;
-  background-color: hsl(0, 0, 100%);
-  display: flex;
-  font-size: 15px;
-  .clear-float {
-    clear: both;
+#container {
+  position: relative;
+  display: block;
+  padding-bottom: 10px;
+
+  .hide_when_print {
+    color: $myOrange;
+    background-color: white;
+    padding: 10px;
+
   }
 
-  .seperate {
-    margin-top: 5px;
+  .button_top {
+    border: 0;
+    border-radius: 3px;
+    padding: 5px;
+    min-width: 60px;
+    margin-right: 5px;
+    transition: all 200ms;
+    cursor: pointer;
+    font-family: sans-serif;
     font-weight: bold;
-    font-size: 16px;
-    font-family: monospace;
-    text-transform: uppercase;
-    padding-bottom: 4px;
-  }
-
-  .left {
-    text-align: left;
-  }
-
-  .right {
-    text-align: right;
-  }
-  .border-bottom {
-    border-bottom: 6px solid grey;
-  }
-
-  #brief_personal_info,
-  #column_seperate,
-  #history_project {
-    float: left;
-    display: block;
-  }
-
-  #column_seperate {
-    width: 2%;
-  }
-
-  .title_level {
-    display: flex;
-
-    .empty {
-      min-width: 40%;
-      min-height: 30px;
+    &:hover {
+      background-color: $myOrange;
+      color: white;
     }
-
-    .title {
-      min-width: 60%;
-      display: flex;
-      justify-content: space-between;
-    }
-  }
-
-  #brief_personal_info {
-    text-align: left;
-    width: 40%;
-
-    .my_name {
-      margin-top: 0;
-      margin-bottom: 10px;
-      font-size: 2rem;
-    }
-
-    .basic_information {
-      display: flex;
-      justify-content: space-around;
-      align-items: flex-start;
-
-      .info_div {
-        width: 70%;
-        .info_list {
-          padding-left: 20px;
-          padding-right: 5px;
-          li {
-            margin-top: 5px;
-            b {
-              margin-right: 3px;
-            }
-          }
-        }
-      }
-
-      .image_represent {
-        margin-top: 20px;
-        .image_profile {
-          width: 140px;
-          border-radius: 10px;
-        }
-      }
-    }
-
-    .brief_introduction {
-      padding: 10px 0;
-      text-align: justify;
-    }
-
-    .contact_info {
-      padding: 10px 0;
-      text-align: left;
-      .contact_item {
-        display: flex;
-        padding: 10px 0;
-        border-bottom: 1px solid;
-        .icon {
-          padding: 0 10px;
-          font-size: larger;
-        }
-      }
-    }
-
-    .skill_info {
-      padding: 10px 0;
-    }
-
-    .languages_info {
-      padding: 10px 0 10px 0;
-    }
-    .devops_management_skills {
-      padding: 10px 0 0 0;
-    }
-  }
-
-  #history_project {
-    width: 58%;
-
-    .working_experience {
-      padding: 5px 0 5px 0;
-      text-align: justify;
-
-      .time_line_item {
-        margin-bottom: 10px;
-        .working_time {
-          padding-top: 5px;
-          border-top: 1px solid;
-          font-weight: bold;
-          color: grey;
-        }
-        &:first-of-type {
-          .working_time {
-            border-top: none;
-          }
-        }
-        &:last-of-type {
-          margin-bottom: 0;
-        }
-
-        .company_name {
-          text-transform: uppercase;
-          font-weight: bold;
-          font-size: larger;
-          color: $myOrange;
-        }
-
-        .description {
-          ul {
-            margin: 0;
-          }
-        }
-      }
-    }
-
-    .education_and_award {
-      padding: 5px 0 5px 0;
-      text-align: justify;
-      .item {
-        margin-bottom: 5px;
-        .title {
-          // border-bottom: 1px solid $myOrange;
-          text-transform: uppercase;
-          font-weight: bold;
-          font-size: larger;
-          color: $myOrange;
-        }
-        .description {
-          a {
-            text-decoration: none;
-            color: black;
-            transition: color 200ms;
-            &:hover {
-              color: $myOrange;
-            }
-          }
-        }
-      }
-    }
-
-    .working-target-desire {
-      padding: 10px 0 0 0;
-      text-align: justify;
-      .quote {
-        text-transform: uppercase;
-        font-size: larger;
-        font-weight: bold;
-        color: $myOrange;
-      }
-      .description {
-        p {
-          margin: 5px 0 5px 0;
-        }
-      }
-    }
-
-    .reference_persons {
-      text-align: justify;
-      b {
-        color: grey;
-      }
-    }
-
-    .follow-me-div {
-      width: 100%;
-      .follow-item {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        border-bottom: 1px solid;
-        padding-top: 8px;
-        padding-bottom: 5px;
-        color: black;
-        text-decoration: none;
-        .icon {
-          font-size: 1.2rem;
-          img {
-            width: 20px;
-          }
-        }
-        .link {
-          a {
-            text-decoration: none;
-            color: black;
-            transition: color 200ms;
-            &:hover {
-              color: $myOrange;
-            }
-          }
-        }
-      }
+    &:first-of-type {
+      border-top-left-radius: 0%;
+      border-bottom-left-radius: 0%;
     }
   }
 }
+

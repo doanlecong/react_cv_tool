@@ -21,16 +21,58 @@ code {
     monospace;
 }
 
+.seperate {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: monospace;
+  text-transform: uppercase;
+  padding-bottom: 4px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+.border-bottom {
+  border-bottom: 6px solid grey;
+}
+
+
+
 
 @media print {
+  .break_page {
+    page-break-before: always;
+    padding-top: 15px;
+    margin-top: 20px;
+  }
+
   body * {
     visibility: hidden;
   }
   #root {
     visibility: hidden;
   }
+  .action_bar {
+    height: 0;
+    visibility: hidden;
+  }
+  .button_top , .hide_when_print {
+    visibility: hidden;
+  }
 
-  #app_div , #app_div * {
+  #app_old, #app_new {
+    padding: 0px;
+  }
+  #app_old , #app_old * {
+    visibility: visible;
+  }
+
+  #app_new, #app_new * {
     visibility: visible;
   }
 }

@@ -1,0 +1,168 @@
+$font_inside: 0.9em;
+$font_sma: 0.85em;
+$myOrange: rgb(173, 129, 6);
+#app_new {
+  padding: 20px;
+  width: 700px !important;
+  min-height: 990px !important;
+  background-color: hsl(0, 0, 100%);
+  display: block;
+  font-size: 15px;
+  text-align: left;
+  a {
+    color: $myOrange;
+    text-decoration: none;
+  }
+  ul,
+  ol {
+    margin-left: -18px;
+    margin-top: 0;
+    margin-block-start: unset;
+    margin-block-end: unset;
+  }
+
+  .clear-float {
+    clear: both;
+  }
+  .seperate {
+    font-size: 1.3em;
+    color: $myOrange;
+    padding-bottom: 0;
+  }
+
+  .border-bottom {
+    border-bottom: 2px solid gray;
+  }
+  .profile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .name {
+      padding-left: 80px;
+      padding-top: 10px;
+      font-size: xx-large;
+      font-family: system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-transform: uppercase;
+      color: $myOrange;
+    }
+    .brief_info {
+      text-align: left;
+      font-size: smaller;
+    }
+  }
+
+  .education {
+    padding: 5px 0 0px 0;
+    font-size: $font_inside;
+    text-align: left;
+    margin-bottom: 15px;
+    .school_time {
+      display: flex;
+      justify-content: space-between;
+      .school,
+      .time {
+        font-weight: bolder;
+        text-transform: uppercase;
+      }
+    }
+
+    .major {
+      text-transform: uppercase;
+      font-size: $font_inside;
+    }
+    .courses,
+    .short_descript {
+      font-size: 0.91em;
+    }
+    .courses {
+      padding-bottom: 2px;
+    }
+  }
+
+  .technical_skills {
+    padding: 5px 0 0px 0;
+    font-size: $font_inside;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  .professional_experience {
+    font-size: $font_inside;
+    padding: 5px 0;
+
+    .period {
+      .title {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-weight: bold;
+        border-bottom: 1px dashed gray;
+      }
+      .descript {
+        text-align: justify;
+        font-size: $font_sma;
+
+        ul.parent {
+          & > li {
+            margin-bottom: 5px;
+          }
+        }
+        ul.child {
+          margin-left: -27px;
+        }
+      }
+      &:nth-of-type(2n + 2) {
+        margin-top: 5px;
+      }
+    }
+  }
+
+  .personal_project {
+    text-align: left;
+    font-size: $font_sma;
+    padding: 5px 0;
+    .project {
+      margin-bottom: 10px;
+      
+      .name {
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .certificates_awards {
+    padding: 5px 0;
+    font-size: $font_inside;
+    display: flex;
+    justify-content: space-between;
+    .left,
+    .right {
+      width: 49%;
+    }
+    .item {
+      font-size: $font_inside;
+      text-align: left;
+      .title {
+        color: rgb(0, 0, 0);
+        font-size: $font_inside;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      .description {
+        font-size: $font_inside;
+      }
+    }
+  }
+
+  .working_target {
+    padding: 5px 0 0px 0;
+    font-size: $font_inside;
+  }
+
+  .reference {
+    padding: 5px 0 0px 0;
+    font-size: smaller;
+  }
+}
