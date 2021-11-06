@@ -21,6 +21,9 @@ $myOrange: rgb(173, 129, 6);
     margin-block-end: unset;
   }
 
+  .color_yellow {
+    color: $myOrange;
+  }
   .clear-float {
     clear: both;
   }

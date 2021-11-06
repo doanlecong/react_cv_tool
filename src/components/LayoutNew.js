@@ -19,14 +19,14 @@ const ProfessionalExperience = () => {
         <div className="descript">
           <ul className="parent">
             <li>
-              <b>MACARON</b> - Product information management system(using
+              <b className="color_yellow">MACARON</b> - Product information management system(using
               <b> Laravel</b> for bussiness management,
               <b>NodeJs-SocketIO-Express</b> for streaming, realtime
               notifications, <b>Mysql</b> to store data, <b>Redis</b> for
               caching.
               <ul className="child">
                 <li>
-                  Improved system performance <b>5x</b> times. Solve the problem
+                  Improved system performance <b>5x</b> times. Solved the most important problem
                   of product code generation bottlenecks by implementing
                   divide-and-conquer optimization algorithms combined with
                   multi-process programming and running in the background.
@@ -45,7 +45,7 @@ const ProfessionalExperience = () => {
               </ul>
             </li>
             <li>
-              <b>NK2</b> - Warehouse management system and distribution of
+              <b className="color_yellow">NK2</b> - Warehouse management system and distribution of
               goods. Applied directly to the operation of DAITO Japan and a
               number of customers in Japan . Using a distributed database
               system. <b>Microservice architecture</b> combined with a control
@@ -72,7 +72,7 @@ const ProfessionalExperience = () => {
               </ul>
             </li>
             <li>
-              <b>PRICE SCRAPING</b> - The system specializes in scraping data
+              <b className="color_yellow">PRICE SCRAPING</b> - The system specializes in scraping data
               about product information and related products in MACARON's system
               on e-commerce websites. : AMAZON, RAKUKEN, YAHOO,..to optimize
               price and delivery time, improve selling quanlity.
@@ -107,7 +107,7 @@ const ProfessionalExperience = () => {
         <div className="descript">
           <ul className="parent">
             <li>
-              <b>IRESIDENT</b> - <b>Key member</b> of this project. The project
+              <b className="color_yellow">IRESIDENT</b> - <b>Key member</b> of this project. The project
               of a management system for people in a condo system, allowing to
               manage arrivals and departures, notifying the householder,
               allowing the householder to schedule visitors to the house with
@@ -146,7 +146,7 @@ const ProfessionalExperience = () => {
         <div className="descript">
           <ul className="parent">
             <li>
-              <b>WORK READY</b> - The system specializes in managing user
+              <b className="color_yellow">WORK READY</b> - The system specializes in managing user
               information and distributing work between branches, from superior
               to subordinate, and scheduling jobs. Written in{" "}
               <b>Ruby on Rails</b> for backend, front end written in{" "}
@@ -205,7 +205,7 @@ const PersonalProject = () => {
   return (
     <>
       <div className="project">
-        <div className="name">Tab Animal - Chrome extension</div>
+        <div className="name color_yellow">Tab Animal - Chrome extension</div>
         <div className="techstack">
           <b>
             TechStack : ReactJs, Javascript, Html, Css, Create React App, Git,
@@ -218,12 +218,12 @@ const PersonalProject = () => {
           temperature at the user's location. There is also a function to change
           the background image based on the weather and hourly
           <br />
-          <b>This is a private project between my friend and me !</b>
+          <b>This is a private project between my friends and me !</b>
         </div>
       </div>
 
       <div className="project">
-        <div className="name">Snow Fall Character - Chrome extension</div>
+        <div className="name color_yellow">Snow Fall Character - Chrome extension</div>
         <div className="techstack">
           <b>
             TechStack : ReactJs, Javascript, Html, Css, Create React App, Git,
@@ -245,7 +245,7 @@ const PersonalProject = () => {
       </div>
 
       <div className="project">
-        <div className="name">React Video Chat App</div>
+        <div className="name color_yellow">React Video Chat App</div>
         <div className="techstack">
           <b>TechStack : ReactJs, Javascript, Html, Css, WebRTC, Nodejs </b>
           SocketIO, Create React App, Git, Webpack
@@ -264,7 +264,7 @@ const PersonalProject = () => {
       </div>
 
       <div className="project">
-        <div className="name">My Website - https://www.doanlee.com</div>
+        <div className="name color_yellow">My Website - https://www.doanlee.com</div>
         <div className="techstack">
           <b>TechStack : Bootstrap, Laravel, Mysql.</b>
         </div>
