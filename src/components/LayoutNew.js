@@ -19,17 +19,19 @@ const ProfessionalExperience = () => {
         <div className="descript">
           <ul className="parent">
             <li>
-              <b className="color_yellow">MACARON</b> - Product information management system(using
+              <b className="color_yellow">MACARON</b> - Product information
+              management system(using
               <b> Laravel</b> for bussiness management,
               <b>NodeJs-SocketIO-Express</b> for streaming, realtime
               notifications, <b>Mysql</b> to store data, <b>Redis</b> for
               caching.
               <ul className="child">
                 <li>
-                  Improved system performance <b>5x</b> times. Solved the most important problem
-                  of product code generation bottlenecks by implementing
-                  divide-and-conquer optimization algorithms combined with
-                  multi-process programming and running in the background.
+                  Improved system performance <b>5x</b> times. Solved the most
+                  important problem of product code generation bottlenecks by
+                  implementing divide-and-conquer optimization algorithms
+                  combined with multi-process programming and running in the
+                  background.
                 </li>
                 <li>
                   Decreased the bugs and system's overload, increased the
@@ -39,18 +41,18 @@ const ProfessionalExperience = () => {
                 </li>
                 <li>
                   Designed, developed, built a html generating tools using{" "}
-                  <b>REACTJS</b> with drap-n-drop functionality for selling
-                  campaign
+                  <b>REACTJS, TypeScript</b> with drap-n-drop functionality for
+                  selling campaign
                 </li>
               </ul>
             </li>
             <li>
-              <b className="color_yellow">NK2</b> - Warehouse management system and distribution of
-              goods. Applied directly to the operation of DAITO Japan and a
-              number of customers in Japan . Using a distributed database
-              system. <b>Microservice architecture</b> combined with a control
-              center written in <b>PHP (Laravel)</b>, Bug management using{" "}
-              <b>LaravelBug</b>
+              <b className="color_yellow">NK2</b> - Warehouse management system
+              and distribution of goods. Applied directly to the operation of
+              DAITO Japan and a number of customers in Japan . Using a
+              distributed database system. <b>Microservice architecture</b>{" "}
+              combined with a control center written in <b>PHP (Laravel)</b>,
+              Bug management using <b>LaravelBug</b>
               <ul className="child">
                 <li>
                   Developed an algorithm to solve the problem of entering the
@@ -72,10 +74,11 @@ const ProfessionalExperience = () => {
               </ul>
             </li>
             <li>
-              <b className="color_yellow">PRICE SCRAPING</b> - The system specializes in scraping data
-              about product information and related products in MACARON's system
-              on e-commerce websites. : AMAZON, RAKUKEN, YAHOO,..to optimize
-              price and delivery time, improve selling quanlity.
+              <b className="color_yellow">PRICE SCRAPING</b> - The system
+              specializes in scraping data about product information and related
+              products in MACARON's system on e-commerce websites. : AMAZON,
+              RAKUKEN, YAHOO,..to optimize price and delivery time, improve
+              selling quanlity.
               <ul className="child">
                 <li>
                   Solved the situation of low data scraping performance with
@@ -107,13 +110,13 @@ const ProfessionalExperience = () => {
         <div className="descript">
           <ul className="parent">
             <li>
-              <b className="color_yellow">IRESIDENT</b> - <b>Key member</b> of this project. The project
-              of a management system for people in a condo system, allowing to
-              manage arrivals and departures, notifying the householder,
-              allowing the householder to schedule visitors to the house with
-              identification information: image , personal information. The
-              system is a cross platform including mobile app, web app, and
-              backend system using
+              <b className="color_yellow">IRESIDENT</b> - <b>Key member</b> of
+              this project. The project of a management system for people in a
+              condo system, allowing to manage arrivals and departures,
+              notifying the householder, allowing the householder to schedule
+              visitors to the house with identification information: image ,
+              personal information. The system is a cross platform including
+              mobile app, web app, and backend system using
               <b> PHP(Yii 2), Twilio,Mobile Network,Pusher, Ionic, Java </b>and
               some other tools.
               <ul className="child">
@@ -141,16 +144,16 @@ const ProfessionalExperience = () => {
         <div className="title">
           <div className="position">RUBY ON RAILS DEVELOPER-FRESHER</div>
           <div className="com_name">RUBIFY.LTD VIET NAM</div>
-          <div className="time">11/2016 – 08/2017</div>
+          <div className="time">11/2016 – 8/2017</div>
         </div>
         <div className="descript">
           <ul className="parent">
             <li>
-              <b className="color_yellow">WORK READY</b> - The system specializes in managing user
-              information and distributing work between branches, from superior
-              to subordinate, and scheduling jobs. Written in{" "}
-              <b>Ruby on Rails</b> for backend, front end written in{" "}
-              <b>ReactJs,NodeJs </b>, communicating through API.
+              <b className="color_yellow">WORK READY</b> - The system is about
+              distributing work between branches, from superior to subordinate
+              and scheduling jobs. Using in <b>Ruby on Rails</b> for backend,
+              front end written in <b>ReactJs,NodeJs</b>, communicating through
+              API.
               <ul>
                 <li>
                   Complete the assigned task in time. Highly rated by management
@@ -208,7 +211,7 @@ const PersonalProject = () => {
         <div className="name color_yellow">Tab Animal - Chrome extension</div>
         <div className="techstack">
           <b>
-            TechStack : ReactJs, Javascript, Html, Css, Create React App, Git,
+            TechStack : ReactJs, TypeScript, Javascript, Html, Css, Create React App, Git,
             Webpack
           </b>
         </div>
@@ -223,10 +226,12 @@ const PersonalProject = () => {
       </div>
 
       <div className="project">
-        <div className="name color_yellow">Snow Fall Character - Chrome extension</div>
+        <div className="name color_yellow">
+          Snow Fall Character - Chrome extension
+        </div>
         <div className="techstack">
           <b>
-            TechStack : ReactJs, Javascript, Html, Css, Create React App, Git,
+            TechStack : ReactJs, TypeScript, Javascript, Html, Css, Create React App, Git,
             Webpack
           </b>
         </div>
@@ -247,7 +252,7 @@ const PersonalProject = () => {
       <div className="project">
         <div className="name color_yellow">React Video Chat App</div>
         <div className="techstack">
-          <b>TechStack : ReactJs, Javascript, Html, Css, WebRTC, Nodejs </b>
+          <b>TechStack : ReactJs, TypeScript,Javascript, Html, Css, WebRTC, Nodejs </b>
           SocketIO, Create React App, Git, Webpack
         </div>
         <div className="descript">
@@ -264,7 +269,9 @@ const PersonalProject = () => {
       </div>
 
       <div className="project">
-        <div className="name color_yellow">My Website - https://www.doanlee.com</div>
+        <div className="name color_yellow">
+          My Website - https://www.doanlee.com
+        </div>
         <div className="techstack">
           <b>TechStack : Bootstrap, Laravel, Mysql.</b>
         </div>
@@ -275,7 +282,7 @@ const PersonalProject = () => {
           scratch as much as possible. Everything from design, color, management
           page is written without using any support library other than bootstrap
           3 and laravel. <br />
-          Completed in July 2017
+          Completed in July 2017 after one month.
           <br />
           <b>Link</b> :{" "}
           <a href="https://www.doanlee.com">https://www.doanlee.com</a>
@@ -362,7 +369,8 @@ const LayoutNew = () => {
             <li>
               Familiar with :{" "}
               <b>
-                Vuejs, D3js, Docker, Kubernete, RabbitMQ, CI/CD, Jest/Cypress
+                Vuejs, D3js, TypeScript, Docker, Kubernete, RabbitMQ, CI/CD,
+                Jest/Cypress
               </b>
               , Selenium, Linux, Bash, GraphQL.
             </li>

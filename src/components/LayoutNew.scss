@@ -15,7 +15,7 @@ $myOrange: rgb(173, 129, 6);
   }
   ul,
   ol {
-    margin-left: -18px;
+    margin-left: -22px;
     margin-top: 0;
     margin-block-start: unset;
     margin-block-end: unset;
@@ -59,7 +59,7 @@ $myOrange: rgb(173, 129, 6);
     padding: 5px 0 0px 0;
     font-size: $font_inside;
     text-align: left;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     .school_time {
       display: flex;
       justify-content: space-between;
@@ -87,7 +87,7 @@ $myOrange: rgb(173, 129, 6);
     padding: 5px 0 0px 0;
     font-size: $font_inside;
     text-align: left;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   .professional_experience {
@@ -112,7 +112,7 @@ $myOrange: rgb(173, 129, 6);
           }
         }
         ul.child {
-          margin-left: -27px;
+          margin-left: -24px;
         }
       }
       &:nth-of-type(2n + 2) {
