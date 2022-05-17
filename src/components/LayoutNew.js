@@ -10,6 +10,37 @@ import "./LayoutNew.scss";
 const ProfessionalExperience = () => {
   return (
     <>
+    <div className="period">
+        <div className="title">
+          <div className="position">SENIOR FULL STACK ENGINEER - REMOTE JOB</div>
+          <div className="com_name">BEPOS.CO, AUSTRALIA</div>
+          <div className="time">10/2021 - CURRENT</div>
+        </div>
+        <div className="descript">
+          <ul className="parent">
+            <li>
+              <b className="color_yellow">TILLX - POS</b> - As a <b>POS system</b>, with many 
+              integrated functions to help manage product sales and track products 
+              in the sales process. Basic features can be listed: Combo, Discount, 
+               Statistics, etc. Designed to be cross-platform and highly customizable.
+              <ul className="child">
+                <li>
+                Here I play the role of a <b>senior full-stack engineer</b>, working with both <b>front end and back end </b>
+                teams to develop product features, especially <b>Combos feature</b> and <b>kitchen display feature</b>.
+                </li>
+                <li>
+                Using <b>AWS services</b>: <b>EQS, EVENT BRIDGE, SNS, SQS, Lambda, DynamoDB</b> and a few others along with 
+                designing microservice and event-driven for the back end and <b>React Native</b> for the front end makes the system 
+                scalable, always highly available and cross-platform
+                </li>
+                <li>
+                  Manage system using Cloudwatch, CI/CD using Github.
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
       <div className="period">
         <div className="title">
           <div className="position">FULL STACK DEVELOPER - TEAM LEADER</div>
@@ -140,7 +171,7 @@ const ProfessionalExperience = () => {
         </div>
       </div>
 
-      <div className="period">
+      <div className="period break_page">
         <div className="title">
           <div className="position">RUBY ON RAILS DEVELOPER-FRESHER</div>
           <div className="com_name">RUBIFY.LTD VIET NAM</div>
@@ -168,7 +199,7 @@ const ProfessionalExperience = () => {
           </ul>
         </div>
       </div>
-      <div className="period break_page">
+      <div className="period">
         <div className="title">
           <div className="position">FREELANCE IN WEB DEVELOPMENT</div>
           <div className="com_name"></div>
@@ -336,12 +367,12 @@ const LayoutNew = () => {
         </div>
         <div className="courses">
           <b>Courses</b>: OOP in C++, Compilers, Algorithms, Operating Systems,
-          Data Structures, Web-Mobile Development, Artifical Intelligent.
+          Data Structures, Web-Mobile Development, Artificial Intelligent.
         </div>
         <div className="short_descript">
-          I am working as a <b>full-stack developer</b> and a <b>team leader</b>
+          I am working as a <b>full-stack engineer</b> and a <b>team leader</b>
           . Have a solid knowledge of data structures and algorithms and I also
-          have more than 5 years of experience in web development.
+          have more than 6 years of experience in web development.
           <b> Hobbies:</b> Playing Guitar, Football; Drawing and so on.
         </div>
         {/* Chuyen nganh / Điểm */}
@@ -351,8 +382,8 @@ const LayoutNew = () => {
       <div className="technical_skills">
         <div className="child">
           <b>Proficiency</b> :{" "}
-          <b>Javascript, NodeJs, HTML, CSS(SCSS/LESS) PHP</b>, Python, Bash,
-          Shell, MySql, PostgreDB, MongoDB.
+          <b>Javascript, NodeJs, PHP</b>, Python, Bash,
+          Shell, MySql, PostgreDB, MongoDB, DynamoDB.
         </div>
         <div className="child">
           <b>Familiarity</b> : C++, Java, Go, Haskel, Linux, Ruby On Rails.
@@ -378,7 +409,7 @@ const LayoutNew = () => {
         </div>
         <div>
           <b>Management Skills</b> : <b>Team Leader</b> of 3 members |
-          <b> Agile, Scrum and Presentation Skill.</b>
+          <b> Agile - Scrum and Presentation Skill.</b>
         </div>
       </div>
       <Seperate title="Professional Experience" />

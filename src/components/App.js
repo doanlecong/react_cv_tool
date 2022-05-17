@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from "react";
 import "./app.scss";
-import MyImage from "../images/doanle.jpg";
+//import MyImage from "../images/doanle.jpg";
 
 
 import LayoutOld from "./LayoutOld";

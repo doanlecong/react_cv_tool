@@ -42,7 +42,7 @@ $myOrange: rgb(173, 129, 6);
     justify-content: space-between;
 
     .name {
-      padding-left: 80px;
+      padding-left: 60px;
       padding-top: 10px;
       font-size: xx-large;
       font-family: system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -103,7 +103,7 @@ $myOrange: rgb(173, 129, 6);
         border-bottom: 1px dashed gray;
       }
       .descript {
-        text-align: justify;
+        text-align: left;
         font-size: $font_sma;
 
         ul.parent {
