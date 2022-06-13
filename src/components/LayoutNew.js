@@ -12,7 +12,7 @@ const ProfessionalExperience = () => {
     <>
     <div className="period">
         <div className="title">
-          <div className="position">SENIOR FULL STACK ENGINEER - REMOTE JOB</div>
+          <div className="position">SENIOR FULL STACK ENGINEER - FULLTIME REMOTE JOB</div>
           <div className="com_name">BEPOS.CO, AUSTRALIA</div>
           <div className="time">10/2021 - CURRENT</div>
         </div>
@@ -26,11 +26,11 @@ const ProfessionalExperience = () => {
               <ul className="child">
                 <li>
                 Here I play the role of a <b>senior full-stack engineer</b>, working with both <b>front end and back end </b>
-                teams to develop product features, especially <b>Combos feature</b> and <b>kitchen display feature</b>.
+                teams to develop many product features, especially <b>Combos feature</b> , <b>Kitchen display feature</b> and so on.
                 </li>
                 <li>
                 Using <b>AWS services</b>: <b>EQS, EVENT BRIDGE, SNS, SQS, Lambda, DynamoDB</b> and a few others along with 
-                designing microservice and event-driven for the back end and <b>React Native</b> for the front end makes the system 
+                designing microservice and event-driven for the back end - <b>NodeJs</b> and <b>React Native</b> for the front end makes the system 
                 scalable, always highly available and cross-platform
                 </li>
                 <li>
@@ -382,8 +382,8 @@ const LayoutNew = () => {
       <div className="technical_skills">
         <div className="child">
           <b>Proficiency</b> :{" "}
-          <b>Javascript, NodeJs, PHP</b>, Python, Bash,
-          Shell, MySql, PostgreDB, MongoDB, DynamoDB.
+          <b>Javascript, NodeJs, MySql, DynamoDB, PostgreDB</b>, Python, Bash,
+          Shell, PHP, MongoDB.
         </div>
         <div className="child">
           <b>Familiarity</b> : C++, Java, Go, Haskel, Linux, Ruby On Rails.
@@ -400,7 +400,7 @@ const LayoutNew = () => {
             <li>
               Familiar with :{" "}
               <b>
-                Vuejs, D3js, TypeScript, Docker, Kubernete, RabbitMQ, CI/CD,
+                AWS Services, Vuejs, D3js, TypeScript, Docker, Kubernete, RabbitMQ, CI/CD,
                 Jest/Cypress
               </b>
               , Selenium, Linux, Bash, GraphQL.
