@@ -343,7 +343,7 @@ const LayoutNew = () => {
             <b>(+84) 098 250 3643</b>
           </div>
           <div className="github_facebook">
-            <a href="https://github.com/doanlecong">github.com/doanlecong</a> |{" "}
+            {/* <a href="https://github.com/doanlecong">github.com/doanlecong</a> |{" "} */}
             <a href="https://www.facebook.com/doan.le.cong.33">
               facebook.com/doan.le.cong.33
             </a>
