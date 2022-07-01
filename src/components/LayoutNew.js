@@ -505,7 +505,7 @@ const LayoutNew = () => {
             <b>093 539 8101</b>
           </li>
           <li>
-            Mr. Nguyễn Văn Trọng - Manager of DAITO VN CO.LTD. Phone :{" "}
+            Mr. Nguyễn Văn Trọng - Engineer Manager of DAITO VN CO.LTD. Phone :{" "}
             <b>098 975 8864</b>
           </li>
         </ul>
